@@ -2,6 +2,72 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="90dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="140dp"
+        android:text="Button" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/button1"
+        android:layout_alignTop="@id/button1"
+        android:layout_marginRight="100dp"
+        android:src="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignTop="@id/button1"
+        android:layout_marginLeft="100dp"
+        android:src="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignTop="@id/button1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:src="@android:drawable/btn_star" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageButton3"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/images_anayuki001" />
 
 </RelativeLayout>
